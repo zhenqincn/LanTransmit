@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:padding="8dp"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:id="@+id/txt_progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/trans_prog_title"
+        android:layout_below="@+id/trans_prog_title"
+        android:layout_marginTop="77dp"
+        android:text="progress" />
+
+    <TextView
+        android:padding="8dp"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:id="@+id/trans_prog_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="63dp"
+        android:layout_marginTop="82dp"
+        android:text=""
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="63dp" />
+
+    <ProgressBar
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:max="100"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressBar_contacts"
+        android:layout_below="@+id/txt_progress"
+        android:layout_alignLeft="@+id/txt_progress"
+        android:layout_alignStart="@+id/txt_progress"
+        android:layout_marginTop="18dp" />
+
+</RelativeLayout>
+ 

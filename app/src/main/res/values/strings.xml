@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">LAN快传</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="ret">返回</string>
+    <string name="click_send">单击文件即可发送</string>
+    <string name="choose_send">选择文件并发送</string>
+    <string name="choose_picture">选择照片并发送</string>
+    <string name="login">请输入您的文件传输码</string>
+    <string name="name">请输入您的用户名</string>
+    <string name="client">加入已创建的热点</string>
+    <string name="server">创建Wifi热点</string>
+    <string name="hint_for_send">请输入对方的文件传输码</string>
+    <string name="hint1">请选择文件接受者：</string>
+    <string name="send_contacts">同步本机通讯录给对方</string>
+    <string name="open_ap">开启热点</string>
+    <string name="ap_ssid">热点名称</string>
+    <string name="ap_key">热点密码</string>
+    <string name="confirm">确定</string>
+    <string name="process">查看进度</string>
+    <string name="click_send_app">点击以发送应用程序</string>
+    <string name="click_set">click_set</string>
+    <string name="label_name">label_name</string>
+    <string name="package_name">package_name</string>
+</resources>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_background"
+    android:orientation="vertical" >
+
+    <TextView
+        android:padding="8dp"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:id="@+id/Key"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edit1"
+        android:ems="10"
+        android:text="@string/ap_key"
+        android:layout_below="@+id/SSID"
+        android:layout_alignLeft="@+id/SSID"
+        android:layout_alignStart="@+id/SSID"
+        android:layout_marginTop="23dp" />
+
+    <TextView
+        android:padding="8dp"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:id="@+id/SSID"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edit1"
+        android:ems="10"
+        android:text="@string/ap_ssid"
+        android:layout_marginTop="70dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <qz.p2ptransmit.view.CircleProgressView
+        android:id="@+id/circlebar_open_ap"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="92dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ListView
+        android:id="@+id/fileView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/trans_prog_title" >
+
+    </ListView>
+
+    <TextView
+        android:id="@+id/trans_prog_title"
+        android:layout_width="500dp"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:text="@string/click_send"
+        android:textSize="30sp" />
+
+</RelativeLayout>
