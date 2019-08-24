@@ -1,4 +1,4 @@
-# P2PTransmit
+# LanTransmit
 创新项目工程文件
 基于Android系统的局域网内快速传输
 支持手机所有文件、照片、以及应用程序的传输
